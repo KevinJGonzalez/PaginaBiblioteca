@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libreria | "Formatos Avanzados"</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+
+    <!-- Encabezado --> 
+    <header>
+        <ul>
+            <img src="./images/logo.jpg" alt="Logo Biblioteca">
+            <strong>
+                <li><a href="https://www.significados.com/libro/"> Libros </a></li>
+                <li><a href="https://www.comunidadbaratz.com/blog/los-10-libros-mas-leidos-y-vendidos-en-el-mundo/"> Más Leidos </a></li>
+                <li><a href="https://www.elle.com/es/living/ocio-cultura/a30453458/mejores-libros-2020/"> Recientes </a></li>
+                <li><a href="https://www.lecturalia.com/libros/pu/novedades-editoriales"> Novedades </a></li>
+                <li><a href="https://www.alfaomega.com.mx/default/bibliotecadigital"> Acerca de </a></li>
+            </strong>
+        </ul>
+    </header>
+
+
+    <!-- Contenido --> 
+    <main>
+
+        <section class="division">
+
+            <div class="izquierda">
+                <h2><u> El Principito </u></h2>
+                <img src="./images/principito.png" alt="Imagen el Principito" 
+                usemap="#principito" width="350px" height="350px" style="border: 3px solid black;">
+                <map name="principito">
+                    <area shape="circle" coords="172,237,100" 
+                        href="https://www.culturagenial.com/es/libro-el-principito/#:~:text=El%20principito%20es%20una%20narraci%C3%B3n,del%20amor%20y%20la%20amistad." 
+                        alt="El Principito"
+                        target="_blank">
+                </map>
+
+                <br>
+                    <p>Escucha un Breve Resumen:</p>
+                        <audio style="margin: -10px 0 18px 0;" controls source
+                        src="./audio_video/EL PRINCIPITO POR ANTOINE DE SAINT-EXUPERY   RESUMEN ANIMADO(MP3_128K).mp3" type="audio/mp3">
+                        El Navegador no Soporta el Audio</audio>
+                <br>
+
+                <div class="tabla">
+                    <center>
+                        <table border="3px">
+                                <tr>
+                                    <th colspan="3" style="background-color: rgb(137, 194, 251); height: 35px;">Datos Edición Original</ca>
+                                </tr>
+                                <tr>
+                                    <td rowspan="7" style="height: 189px; width: 140px;">
+                                        <img src="./images/portada-El-Principito.jpg" alt="Portada El Pirincipito" height="189px" width="140px">
+                                    </td>
+                                    <th>Título</th>
+                                    <td>El Principito</td>
+                                </tr>
+                                <tr>
+                                    <th>Género</th>
+                                    <td>Novela</td>
+                                </tr>
+                                <tr>
+                                    <th>Sub Género</th>
+                                    <td>Novela lírica y ficción filosófica</td>
+                                </tr>
+                                <tr>
+                                    <th>Ilustrador</th>
+                                    <td>Antoine de Saint-Exupéry</td>
+                                </tr>
+                                <tr>
+                                    <th>Editorial</th>
+                                    <td>Reynal & Hitchcock (EUA)</td>
+                                </tr>
+                                <tr>
+                                    <th>País</th>
+                                    <td>Paraguay</td>
+                                </tr>
+                                <tr>
+                                    <th>Fecha de Publicación</th>
+                                    <td>1943</td>
+                                </tr>
+                        </table>
+                    </center>
+                </div>
+
+            </div>
+
+            <div class="derecha">
+                <h2><u>¡Alquila uno de nuestros Libros!</u></h2> 
+                <fieldset class="complete">
+                    <legend><strong> Por Favor complete el Formulario: </strong></legend>
+                    <p><label> Nombres: <input type="text" name="nombre"> </label></p>
+                    <p><label> Apellidos: <input type="text" name="apellidos"> </label></p>
+                    <p><label> Dirección: <input type="text" name="direccion"> </label></p>
+                    <p><label> Libro a Aquilar: <input type="text" name="nombre" value="El Principito"> </label></p>
+                    <p> Elija la Cantidad de días a alquilar: <br>
+                        <input type="radio" name="editor" value="3"> 3 días
+                        <input type="radio" name="editor" value="5"> 5 días
+                        <input type="radio" name="editor" value="8"> 8 días
+                        <input type="radio" name="editor" value="10"> 10 días
+                    </p>    
+                    <p><label> Fecha Expiración de Alquiler: <input type="date" name="fechaexp"> </label></p>
+                    <p> Elija el Método de Pago: 
+                            <select name="metodoPago" >
+                            <option value="mastercard">Mastercard</option>
+                            <option value="paypal">PayPal</option>
+                            <option value="paypal">Visa</option>
+                            <option value="anericanexpress">American Express</option>
+                            </select> 
+                        </p> 
+                        <p><label> Código de Seguridad: <input type="number" name="codigo"> </label></p>
+                        <p style="text-align: center;">
+                            <button type="submit"> Alquilar Libro </button>
+                        </p>
+                </fieldset>
+                <br>
+                <div class="Fomentemos">
+                    <h3><u> ¡Fomentemos la Lectura! </u></h3>
+                    <video width="75%" height="210px" controls source 
+                    src="./audio_video/Fomentando la lectura.mp4" type="video/mp4">
+                        Su Navegador no Permite Visualizar este Vídeo.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <section class="portadas" >
+            <h2>¡Adentrate en Nuevas Aventuras! </h2>
+            <p style="font-size: 18px;">Estos Libros te pueden Interesar: 
+                <strong>Da click en cada imagen para conocer más</strong> </p>
+           
+            <div class="libro">
+                <div class="portada">
+                    <img src="./images/portadaamargainocencia.png" alt="Libro Amarga Inocencia" usemap="#libro1">
+                    <map name="libro1">
+                        <area shape="rect" coords="1,1,275,350" 
+                            href="https://www.casadellibro.com/libro-amarga-inocencia/9788494544750/4831311" 
+                            alt="Amarga Inocencia"
+                            target="_blank">
+                    </map>
+                </div>
+                <div class="descripcion">
+                    <h4>Amarga Inocencia</h4>
+                    <p>Dejar atrás Washington fue lo mejor que pudimos hacer. Mi hermano Matthew Reed fue el primero en hacerlo.
+                        Siempre me gusta llamarlo Matt. Pero no es la historia de mi hermano esta vez. Es la mía.
+                        Siempre fui la frágil e inocente Susan Reed. Pero lo que nadie sabe es que detrás de mi inocencia se escondía 
+                        una chica diferente que sabía todo lo que pasaba a su alrededor.</p>
+                </div>
+            </div>
+            
+            <div class="libro">
+                <div class="portada">
+                    <img src="./images/portadacartasdeamor.jpg" alt="Libros Cartas de Amor" usemap="#libro2">
+                    <map name="libro2">
+                        <area shape="rect" coords="1,1,275,350" 
+                            href="https://www.nocturnaediciones.com/libro/68/cartas_amor_muertos" 
+                            alt="Cartas de Amor a los Muertos"
+                            target="_blank">
+                    </map>
+                </div>
+                <div class="descripcion">
+                    <h4>Cartas de Amor a los Muertos</h4>
+                    <p>Laurel escoge a Kurt Cobain porque su hermana lo adoraba. Y porque él murió joven, como ella. En poco tiempo tiene un
+                        cuaderno lleno de cartas a Judy Garland, Amy Winehouse, Heath Ledger y muchos otros. Sin embargo, no se las entrega
+                        a su profesora. Les escribe sobre el comienzo del instituto, sus nuevas amistades, su primer amor y sobre cómo está
+                        aprendiendo a vivir ahora.</p>
+                </div>
+            </div>
+            
+            <div class="libro">
+                <div class="portada">
+                    <img src="./images/portadaciudadesdepapel.jpg" alt="Libro Ciudades de Papel" usemap="#libro3">
+                    <map name="libro3">
+                        <area shape="rect" coords="1,1,275,350" 
+                            href="https://www.casadellibro.com/libro-ciudades-de-papel/9788415594284/2299502" 
+                            alt="Ciudades de Papel"
+                            target="_blank">
+                    </map>
+                </div>
+                <div class="descripcion">
+                    <h4>Ciudades de Papel</h4>
+                    <p>En su último año de instituto, Quentin no ha aprobado ni en popularidad ni en asuntos del corazón. Pero todo cambia
+                        cuando su vecina, la legendaria, inalcanzable y enigmática Margo Spiegelman, se presenta en mitad de la
+                        noche para proponerle que le acompañe en un plan de venganza inaudito. Después de una intensa noche que reaviva el 
+                        vínculo de una infancia compartida.</p>
+                </div>
+            </div>
+            
+            <div class="libro">
+                <div class="portada">
+                    <img src="./images/elbazar_.jpg" alt="Libro El bazar de los malos sueños" usemap="#libro4">
+                    <map name="libro4">
+                        <area shape="rect" coords="1,1,275,350" 
+                            href="https://www.casadellibro.com/libro-el-bazar-de-los-malos-suenos/9788401017322/4793701" 
+                            alt="El bazar de los malos sueños"
+                            target="_blank">
+                    </map>
+                </div>
+                <div class="descripcion">
+                    <h4>El Bazar De los Malos Sueños</h4>
+                    <p>Directo desde la mente de Stephen King, el que te roba el sueño y te asusta de verdad. El bazar de los malos sueños
+                        es una colección 20 relatos magníficos, inquietantes, absorbentes... Un preciado regalo del autor a sus lectores.
+                        «Escribí estos relatos especialmente para ti. Adelante, léelos, pero ten mucho cuidado. Los mejores tienen dientes.»
+                        La cotidianidad da cobijo a los monstruos.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+    <br>
+
+    <!-- Footer -->
+    <footer class="piePagina">
+        <div class="grupo1">
+            <div class="caja">
+                <h3> VIDEO INFORMATIVO </h3>
+                    <video controls source 
+                    src="./audio_video/Biblioteca Digital Alfaomega.mp4" type="video/mp4">
+                        Su Navegador no Permite Visualizar este Vídeo.
+                    </video>
+            </div>
+            <div class="caja">
+                <h2>SOBRE NOSOTROS</h2>
+                <p>Nuestra plataforma está configurada sobre el ecosistema iPublishCentral, un modelo en constante actualización y mejora cuya infraestructura se implementa de forma rápida y a la medida de cada biblioteca.
+                    Los títulos disponibles de Alfaomega Grupo Editor son ideales para el nivel superior en lo que se refiere a carreras relacionadas a todos los ámbitos de ingeniería, administración, tecnología y computación.
+                    Contamos con una trayectoria de más de 30 años de experiencia editorial, nuestros libros son bibliografía indispensable en América Latina.</p>
+            </div>
+            <div class="caja">
+                <h2>SIGUENOS</h2>
+                <div class="redesSociales">
+                    <a href="https://www.youtube.com/channel/UCxHStBAgabUAPwap0Ch_gwQ">YouTube</a>
+                    <a href="https://www.alfaomega.com.mx/default/politica-privacidad/">Política de Privacidad</a>
+                    <a href="https://www.alfaomega.com.mx/default/terminos-condiciones/">Términos y Condiciones</a>
+                    <a href="https://www.alfaomega.com.mx/default/cambios-devoluciones/">Cambios y Devoluciones</a>
+                    <img src="./images/logo.jpg" alt="Logo">
+                </div>
+            </div>
+        </div>
+        <div class="grupo2">
+            <small>Biblioteca Digital AlfaOmega 2022 <b>©KEVIN JOSUÉ GONZÁLEZ ZAMORA</b> - Derechos Reservados xD </small>
+        </div>
+    </footer>
+    
+</body>
+</html>
